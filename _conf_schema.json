@@ -1,0 +1,77 @@
+{
+  "memory_db_path": {
+    "description": "记忆数据库路径",
+    "type": "string",
+    "default": "memory_weight.db"
+  },
+  "vector_db_path": {
+    "description": "向量数据库路径",
+    "type": "string",
+    "default": "MemoryWeight_VectorDB"
+  },
+  "embedding_model": {
+    "description": "Embedding模型",
+    "type": "string",
+    "default": "paraphrase-multilingual-MiniLM-L12-v2"
+  },
+  "hf_endpoint": {
+    "description": "HuggingFace镜像",
+    "type": "string",
+    "default": "https://hf-mirror.com"
+  },
+  "embedding_cache_dir": {
+    "description": "模型缓存目录",
+    "type": "string",
+    "default": "MemoryWeight_ModelCache"
+  },
+  "offline_mode": {
+    "description": "离线模式",
+    "type": "bool",
+    "default": false
+  },
+  "auto_listen": {
+    "description": "自动监听LLM对话",
+    "type": "bool",
+    "default": true
+  },
+  "initial_strength": {
+    "description": "初始记忆强度(0-100)",
+    "type": "float",
+    "default": 50.0
+  },
+  "base_stability": {
+    "description": "基础稳定性",
+    "type": "float",
+    "default": 1.0
+  },
+  "similarity_threshold": {
+    "description": "去重相似度阈值",
+    "type": "float",
+    "default": 0.8
+  },
+  "strength_threshold": {
+    "description": "最低强度阈值",
+    "type": "float",
+    "default": 5.0
+  },
+  "auto_recall_probability": {
+    "description": "自动回忆概率",
+    "type": "float",
+    "default": 0.2
+  },
+  "auto_recall_threshold": {
+    "description": "自动回忆相关度阈值",
+    "type": "float",
+    "default": 40.0
+  },
+  "max_memories_per_request": {
+    "description": "每次注入最大记忆数",
+    "type": "int",
+    "default": 5
+  },
+  "max_memories_display": {
+    "description": "列表显示最大数",
+    "type": "int",
+    "default": 20
+  }
+}

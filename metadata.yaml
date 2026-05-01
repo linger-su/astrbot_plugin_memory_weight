@@ -1,0 +1,10 @@
+name: astrbot_plugin_memory_weight
+author: 糯风秋月
+version: 1.0.2
+description:
+  zh_cn: 基于艾宾浩斯遗忘曲线的记忆权重插件，支持情感加权、语义搜索、记忆巩固和自动提取。
+homepage: https://github.com/linger-su/astrbot_plugin_memory_weight
+repo: https://github.com/linger-su/astrbot_plugin_memory_weight
+star_backup:
+  - memory_weight.db
+  - MemoryWeight_VectorDB

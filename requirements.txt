@@ -1,0 +1,5 @@
+# 基础功能：无额外依赖（纯Python标准库）
+# 以下为可选依赖（语义搜索功能需要）
+chromadb
+sentence-transformers
+torch
